@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://github.com/marlondelana/site</loc>
+  <lastmod>2025-02-24T23:00:11+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://github.com/marlondelana/site/activity</loc>
+  <lastmod>2025-02-24T23:00:11+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/marlondelana/site/issues</loc>
+  <lastmod>2025-02-24T23:00:11+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/marlondelana/site/pulls</loc>
+  <lastmod>2025-02-24T23:00:11+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/marlondelana/site/actions</loc>
+  <lastmod>2025-02-24T23:00:11+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/marlondelana/site/security</loc>
+  <lastmod>2025-02-24T23:00:11+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/marlondelana/site/blob/main/README.md</loc>
+  <lastmod>2025-02-24T23:00:11+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/marlondelana/site/blob/main/index.html</loc>
+  <lastmod>2025-02-24T23:00:11+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/marlondelana/site/releases</loc>
+  <lastmod>2025-02-24T23:00:11+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/marlondelana/search?q=repo%3Amarlondelana%2Fsite++language%3AHTML</loc>
+  <lastmod>2025-02-24T23:00:11+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/marlondelana/site/labels</loc>
+  <lastmod>2025-02-24T23:00:11+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/marlondelana/site/milestones</loc>
+  <lastmod>2025-02-24T23:00:11+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/marlondelana/site/actions/workflows/pages/pages-build-deployment</loc>
+  <lastmod>2025-02-24T23:00:11+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/marlondelana/site/actions/caches</loc>
+  <lastmod>2025-02-24T23:00:11+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/marlondelana/site/actions/runs/13509556332</loc>
+  <lastmod>2025-02-24T23:00:11+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/marlondelana/site/actions/runs/13509410464</loc>
+  <lastmod>2025-02-24T23:00:11+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/marlondelana/site/labels?sort=name-asc</loc>
+  <lastmod>2025-02-24T23:00:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/marlondelana/site/labels?sort=name-desc</loc>
+  <lastmod>2025-02-24T23:00:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/marlondelana/site/labels?sort=count-desc</loc>
+  <lastmod>2025-02-24T23:00:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/marlondelana/site/labels?sort=count-asc</loc>
+  <lastmod>2025-02-24T23:00:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/marlondelana/site/labels/bug</loc>
+  <lastmod>2025-02-24T23:00:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/marlondelana/site/labels/documentation</loc>
+  <lastmod>2025-02-24T23:00:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/marlondelana/site/labels/duplicate</loc>
+  <lastmod>2025-02-24T23:00:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/marlondelana/site/labels/enhancement</loc>
+  <lastmod>2025-02-24T23:00:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/marlondelana/site/labels/good%20first%20issue</loc>
+  <lastmod>2025-02-24T23:00:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/marlondelana/site/labels/help%20wanted</loc>
+  <lastmod>2025-02-24T23:00:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/marlondelana/site/labels/invalid</loc>
+  <lastmod>2025-02-24T23:00:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/marlondelana/site/labels/question</loc>
+  <lastmod>2025-02-24T23:00:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/marlondelana/site/labels/wontfix</loc>
+  <lastmod>2025-02-24T23:00:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/marlondelana/site/milestones?state=open</loc>
+  <lastmod>2025-02-24T23:00:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/marlondelana/site/milestones?state=closed</loc>
+  <lastmod>2025-02-24T23:00:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/marlondelana/site/milestones?direction=desc&amp;sort=due_date&amp;state=open</loc>
+  <lastmod>2025-02-24T23:00:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/marlondelana/site/milestones?direction=asc&amp;sort=due_date&amp;state=open</loc>
+  <lastmod>2025-02-24T23:00:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/marlondelana/site/milestones?direction=asc&amp;sort=completeness&amp;state=open</loc>
+  <lastmod>2025-02-24T23:00:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/marlondelana/site/milestones?direction=desc&amp;sort=completeness&amp;state=open</loc>
+  <lastmod>2025-02-24T23:00:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/marlondelana/site/milestones?direction=asc&amp;sort=title&amp;state=open</loc>
+  <lastmod>2025-02-24T23:00:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/marlondelana/site/milestones?direction=desc&amp;sort=title&amp;state=open</loc>
+  <lastmod>2025-02-24T23:00:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/marlondelana/site/milestones?direction=desc&amp;sort=count&amp;state=open</loc>
+  <lastmod>2025-02-24T23:00:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/marlondelana/site/milestones?direction=asc&amp;sort=count&amp;state=open</loc>
+  <lastmod>2025-02-24T23:00:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/marlondelana/site/actions/caches?query=sort%3Aaccessed-desc</loc>
+  <lastmod>2025-02-24T23:00:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/marlondelana/site/actions/caches?query=sort%3Aaccessed-asc</loc>
+  <lastmod>2025-02-24T23:00:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/marlondelana/site/actions/caches?query=sort%3Acreated-desc</loc>
+  <lastmod>2025-02-24T23:00:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/marlondelana/site/actions/caches?query=sort%3Acreated-asc</loc>
+  <lastmod>2025-02-24T23:00:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/marlondelana/site/actions/caches?query=sort%3Asize-desc</loc>
+  <lastmod>2025-02-24T23:00:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/marlondelana/site/actions/caches?query=sort%3Asize-asc</loc>
+  <lastmod>2025-02-24T23:00:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/marlondelana/site/actions/runs/13509556332/job/37746792871</loc>
+  <lastmod>2025-02-24T23:00:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/marlondelana/site/actions/runs/13509556332/job/37746808911</loc>
+  <lastmod>2025-02-24T23:00:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/marlondelana/site/actions/runs/13509556332/job/37746808916</loc>
+  <lastmod>2025-02-24T23:00:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/marlondelana/site/actions/runs/13509556332/usage</loc>
+  <lastmod>2025-02-24T23:00:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/marlondelana/site/commit/759ab8c262d4b7c36045e0f57f756b7ead7fbe91</loc>
+  <lastmod>2025-02-24T23:00:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/marlondelana/site/actions/runs/13509410464/job/37746346128</loc>
+  <lastmod>2025-02-24T23:00:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/marlondelana/site/actions/runs/13509410464/job/37746362966</loc>
+  <lastmod>2025-02-24T23:00:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/marlondelana/site/actions/runs/13509410464/job/37746362975</loc>
+  <lastmod>2025-02-24T23:00:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/marlondelana/site/actions/runs/13509410464/usage</loc>
+  <lastmod>2025-02-24T23:00:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/marlondelana/site/commit/2327f8d0b111b57fe49ae36cac1f401eca38dd32</loc>
+  <lastmod>2025-02-24T23:00:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/marlondelana/site/milestones?direction=desc&amp;sort=due_date&amp;state=closed</loc>
+  <lastmod>2025-02-24T23:00:11+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/marlondelana/site/milestones?direction=asc&amp;sort=due_date&amp;state=closed</loc>
+  <lastmod>2025-02-24T23:00:11+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/marlondelana/site/milestones?direction=asc&amp;sort=completeness&amp;state=closed</loc>
+  <lastmod>2025-02-24T23:00:11+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/marlondelana/site/milestones?direction=desc&amp;sort=completeness&amp;state=closed</loc>
+  <lastmod>2025-02-24T23:00:11+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/marlondelana/site/milestones?direction=asc&amp;sort=title&amp;state=closed</loc>
+  <lastmod>2025-02-24T23:00:11+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/marlondelana/site/milestones?direction=desc&amp;sort=title&amp;state=closed</loc>
+  <lastmod>2025-02-24T23:00:11+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/marlondelana/site/milestones?direction=desc&amp;sort=count&amp;state=closed</loc>
+  <lastmod>2025-02-24T23:00:11+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/marlondelana/site/milestones?direction=asc&amp;sort=count&amp;state=closed</loc>
+  <lastmod>2025-02-24T23:00:11+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/marlondelana/site/commit/17978600b28f3bc444732d965ec5cebcba11be2b</loc>
+  <lastmod>2025-02-24T23:00:11+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/marlondelana/site/commit/dc4f6f049616f91de28274b673cba5ff6a6855fb</loc>
+  <lastmod>2025-02-24T23:00:11+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+
+
+</urlset>
