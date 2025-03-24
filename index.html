@@ -8,7 +8,7 @@
 
   gtag('config', 'G-LY4YD3R4F4');
 </script>
-<html lang="pt-BR" xmlns:mso="urn:schemas-microsoft-com:office:office" xmlns:msdt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -27,6 +27,46 @@
             padding: 20px;
             font-size: 24px;
             font-weight: bold;
+            position: relative;
+        }
+        .menu-container {
+            display: flex;
+            justify-content: center;
+            background-color: #005bb5;
+            padding: 10px 0;
+        }
+        .menu-item {
+            margin: 0 15px;
+            padding: 10px 20px;
+            color: white;
+            cursor: pointer;
+            position: relative;
+            font-weight: bold;
+        }
+        .menu-item:hover {
+            background-color: #004494;
+        }
+        .submenu {
+            display: none;
+            position: absolute;
+            background-color: white;
+            color: black;
+            width: 150px;
+            top: 40px;
+            left: 0;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .submenu a {
+            display: block;
+            padding: 10px;
+            color: black;
+            text-decoration: none;
+        }
+        .submenu a:hover {
+            background-color: #f0f0f0;
+        }
+        .menu-item:hover .submenu {
+            display: block;
         }
         main {
             padding: 20px;
@@ -46,6 +86,33 @@
     <header>
         Marketeiro Analítico
     </header>
+
+    <div class="menu-container">
+        <div class="menu-item">
+            Notícias
+            <div class="submenu">
+                <a href="#">Últimas notícias</a>
+                <a href="#">Destaques</a>
+                <a href="#">Mercado</a>
+            </div>
+        </div>
+        <div class="menu-item">
+            Tendências
+            <div class="submenu">
+                <a href="#">Novidades</a>
+                <a href="#">Tecnologias</a>
+                <a href="#">Casos de Sucesso</a>
+            </div>
+        </div>
+        <div class="menu-item">
+            Inscreva-se
+            <div class="submenu">
+                <a href="#">Newsletter</a>
+                <a href="#">Cursos</a>
+                <a href="#">Eventos</a>
+            </div>
+        </div>
+    </div>
 
     <main>
         <p>Bem-vindo!</p>
