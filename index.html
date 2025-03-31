@@ -10,175 +10,225 @@
 
   gtag('config', 'G-LY4YD3R4F4');
 </script>
+<!DOCTYPE html>
 <html lang="pt-BR">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Marketeiro Analítico</title>
-    <style>
-        html {
-            scroll-behavior: smooth;
-        }
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-            text-align: center;
-        }
-        header {
-            background-color: #0073e6;
-            color: white;
-            padding: 20px;
-            font-size: 24px;
-            font-weight: bold;
-            position: fixed;
-            width: 100%;
-            top: 0;
-            left: 0;
-            z-index: 1000;
-        }
-        .menu-container {
-            display: flex;
-            justify-content: center;
-            background-color: #005bb5;
-            padding: 10px 0;
-            position: fixed;
-            width: 100%;
-            top: 60px;
-            left: 0;
-            z-index: 1000;
-        }
-        .menu-item {
-            margin: 0 15px;
-            padding: 10px 20px;
-            color: white;
-            cursor: pointer;
-            font-weight: bold;
-            text-decoration: none;
-        }
-        .menu-item:hover {
-            background-color: #004494;
-        }
-        .content {
-            padding: 120px 0 80px;
-        }
-        .section {
-            padding: 80px 20px;
-            margin: 0;
-            width: 100%;
-            text-align: center;
-            color: white;
-        }
-        #noticias {
-            background-color: #0073e6;
-        }
-        #tendencias {
-            background-color: #005bb5;
-        }
-        #inscreva-se {
-            background-color: #004494;
-        }
-        h2 {
-            font-size: 32px;
-            text-transform: uppercase;
-            letter-spacing: 2px;
-            margin-bottom: 20px;
-            font-weight: bold;
-        }
-        #noticias h2 {
-            color: #ffdd57;
-        }
-        #tendencias h2 {
-            color: #ffaf40;
-        }
-        #inscreva-se h2 {
-            color: #ff7043;
-        }
-        form input {
-            padding: 10px;
-            width: 80%;
-            max-width: 300px;
-            margin: 10px 0;
-            border: none;
-            border-radius: 4px;
-        }
-        form button {
-            padding: 10px 20px;
-            background-color: #ffdd57;
-            color: #333;
-            border: none;
-            cursor: pointer;
-            font-weight: bold;
-            border-radius: 4px;
-        }
-        form button:hover {
-            background-color: #ffc107;
-        }
-        footer {
-            background-color: #333;
-            color: white;
-            padding: 10px;
-            text-align: center;
-            margin-top: 40px;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mkt Analyics</title>
+  <style>
+    /* Reset básico e tipografia */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+      line-height: 1.6;
+    }
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+    /* Header e Navegação */
+    header {
+      background-color: #1e88e5;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+      position: fixed;
+      width: 100%;
+      top: 0;
+      z-index: 1000;
+      font-size: 24px;
+      font-weight: bold;
+    }
+    nav {
+      background-color: #1565c0;
+      position: fixed;
+      top: 70px;
+      width: 100%;
+      z-index: 999;
+      display: flex;
+      justify-content: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    nav a {
+      padding: 15px 20px;
+      color: #fff;
+      font-weight: bold;
+      transition: background 0.3s ease;
+    }
+    nav a:hover {
+      background-color: #0d47a1;
+    }
+    /* Conteúdo principal */
+    .content {
+      padding: 150px 20px 80px;
+      max-width: 1200px;
+      margin: auto;
+    }
+    section {
+      margin-bottom: 60px;
+    }
+    section h2 {
+      margin-bottom: 20px;
+      text-align: center;
+      font-size: 32px;
+      text-transform: uppercase;
+      color: #1e88e5;
+    }
+    /* Cards container */
+    .card-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+    /* Card padrão */
+    .card {
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      padding: 20px;
+      width: 300px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+    }
+    .card img {
+      max-width: 100%;
+      border-radius: 4px;
+      margin-bottom: 15px;
+    }
+    .card h3 {
+      margin-bottom: 10px;
+      color: #1565c0;
+    }
+    .card p {
+      font-size: 14px;
+      color: #555;
+    }
+    /* Botão WhatsApp */
+    .whatsapp-btn {
+      display: inline-block;
+      background-color: #25d366;
+      color: #fff;
+      padding: 10px 20px;
+      border-radius: 4px;
+      font-size: 16px;
+      font-weight: bold;
+      transition: background 0.3s ease;
+    }
+    .whatsapp-btn:hover {
+      background-color: #1ebe57;
+    }
+    /* Footer */
+    footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }
+  </style>
 </head>
 <body>
 
-    <header>
-        Marketeiro Analítico
-    </header>
+  <header>
+    Marketeiro Analítico
+  </header>
 
-    <div class="menu-container">
-        <a class="menu-item" href="#">Início</a>
-        <a class="menu-item" href="#noticias">Notícias</a>
-        <a class="menu-item" href="#tendencias">Tendências</a>
-        <a class="menu-item" href="#inscreva-se">Inscreva-se</a>
-    </div>
+  <nav>
+    <a href="#inicio">Início</a>
+    <a href="#noticias">Notícias</a>
+    <a href="#tendencias">Tendências</a>
+    <a href="#livros">Livros</a>
+    <a href="#contato">WhatsApp</a>
+  </nav>
 
-    <div class="content">
-        <section id="noticias" class="section">
-            <h2>Notícias</h2>
-            <p>Fique por dentro das últimas novidades do mundo do marketing digital.</p>
-            <p>Aqui você encontrará artigos e informações atualizadas sobre o mercado.</p>
-            <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; background: #000;">
-    <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" 
-        src="https://www.youtube.com/embed/VxqC6aJH9M4" 
-        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-        allowfullscreen>
-    </iframe>
-</div>
-        </section>
-
-        <section id="tendencias" class="section">
-            <h2>Tendências</h2>
-            <p>Descubra as principais tendências e inovações do marketing moderno.</p>
-            <p>Análises sobre estratégias emergentes e estudos de caso inspiradores.</p>
-            <a href="https://www.mlabs.com.br/blog/novidades-do-instagram" target="_blank" style="text-decoration: none; color: inherit;">
-    <div style="display: flex; align-items: center; background: white; padding: 10px; border-radius: 8px; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);">
-        <img src="https://www.mlabs.com.br/blog/wp-content/uploads/2023/01/novidades-do-instagram.png" alt="Novidades do Instagram" width="120" height="80" style="border-radius: 5px; margin-right: 10px;">
-        <div>
-            <h3 style="margin: 0; font-size: 18px;">Novidades do Instagram</h3>
-            <p style="margin: 5px 0; font-size: 14px; color: #555;">Confira as últimas atualizações e tendências do Instagram para 2024.</p>
+  <div class="content" id="inicio">
+    <!-- Sessão de Notícias -->
+    <section id="noticias">
+      <h2>Notícias</h2>
+      <div class="card-container">
+        <div class="card">
+          <img src="https://via.placeholder.com/300x170?text=Not%C3%ADcia+1" alt="">
+          <h3>Novidades do Marketing Digital</h3>
+          <p>Mantenha-se atualizado com as últimas notícias e insights do mercado digital.</p>
+          <!-- Exemplo de vídeo incorporado -->
+          <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+            <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" 
+                    src="https://www.youtube.com/embed/VxqC6aJH9M4" 
+                    frameborder="0" allowfullscreen></iframe>
+          </div>
         </div>
-    </div>
-</a>
-        </section>
+        <div class="card">
+          <img src="https://via.placeholder.com/300x170?text=Not%C3%ADcia+2" alt="">
+          <h3>Agências de Marketing</h3>
+          <p>Conheça as 3 melhores agências de marketing do mercado nacional, referência em criatividade e resultados.</p>
+        </div>
+      </div>
+    </section>
 
-        <section id="inscreva-se" class="section">
-            <h2>Inscreva-se</h2>
-            <p>Quer receber conteúdos exclusivos? Inscreva-se na nossa newsletter.</p>
-            <form>
-                <input type="email" placeholder="Seu e-mail" required>
-                <br>
-                <button type="submit">Enviar</button>
-            </form>
-        </section>
-    </div>
+    <!-- Sessão de Tendências -->
+    <section id="tendencias">
+      <h2>Tendências</h2>
+      <div class="card-container">
+        <div class="card">
+          <img src="https://via.placeholder.com/300x170?text=Tend%C3%AAncia+1" alt="">
+          <h3>Inovações Tecnológicas</h3>
+          <p>Descubra como a tecnologia está transformando o marketing moderno.</p>
+        </div>
+        <div class="card">
+          <img src="https://via.placeholder.com/300x170?text=Tend%C3%AAncia+2" alt="">
+          <h3>Trend do Desenho</h3>
+          <p>GPT revoluciona com trend de desenho. Nasce uma polêmica com a nova tendência, qual a sua opinião da Trend do desenho?.</p>
+        </div>
+      </div>
+    </section>
 
-    <footer>
-        © 2025 Marketeiro Analítico - Todos os direitos reservados.
-    </footer>
+    <!-- Sessão de Livros -->
+    <section id="livros">
+      <h2>Livros</h2>
+      <div class="card-container">
+        <div class="card">
+          <img src="https://via.placeholder.com/300x170?text=Marketing+4.0" alt="">
+          <h3>Marketing 4.0</h3>
+          <p>Philip Kotler propõe um novo olhar sobre o marketing na era digital, combinando o tradicional com o moderno.</p>
+        </div>
+        <div class="card">
+          <img src="https://via.placeholder.com/300x170?text=Influence" alt="">
+          <h3>Influence: The Psychology of Persuasion</h3>
+          <p>Robert B. Cialdini explica os princípios que levam as pessoas a dizerem sim e como aplicá-los no marketing.</p>
+        </div>
+        <div class="card">
+          <img src="https://via.placeholder.com/300x170?text=Contagious" alt="">
+          <h3>Contagious: Why Things Catch On</h3>
+          <p>Jonah Berger mostra como produtos e ideias se tornam virais, explorando os segredos do boca a boca moderno.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sessão de Contato (WhatsApp) -->
+    <section id="contato">
+      <h2>WhatsApp</h2>
+      <p style="text-align: center; margin-bottom: 15px;">Entre em contato diretamente pelo WhatsApp:</p>
+      <div style="text-align: center;">
+        <a class="whatsapp-btn" href="https://api.whatsapp.com/send?phone=5521991899189" target="_blank">
+          WhatsApp +55 21 99189-9189
+        </a>
+      </div>
+    </section>
+  </div>
+
+  <footer>
+    © 2025 Marketeiro Analítico Moderno - Todos os direitos reservados.
+  </footer>
 
 </body>
 </html>
